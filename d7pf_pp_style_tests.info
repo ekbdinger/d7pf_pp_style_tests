@@ -1,0 +1,11 @@
+name = d7pf_pp_style_tests
+description = one rounded corner 
+core = 7.x
+package = pp panels explorations
+version = 7.x-1.0
+project = d7pf_pp_style_tests
+dependencies[] = ctools
+dependencies[] = page_manager
+features[ctools][] = page_manager:pages_default:1
+features[features_api][] = api:1
+features[page_manager_pages][] = d7pf_pp_style_tests
